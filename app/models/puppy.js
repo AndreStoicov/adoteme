@@ -10,6 +10,41 @@ const puppySchema = new Schema({
     unique: true,
     required: true,
     default: ''
+  },
+  type: {
+    type: String,
+    required: true,
+    default: ''
+  },
+  breed: {
+    type: String,
+    required: true,
+    default: ''
+  },
+  furType: {
+    type: String,
+    required: true,
+    default: ''
+  },
+  furColor: {
+    type: String,
+    required: true,
+    default: ''
+  },
+  description: {
+    type: String,
+    required: true,
+    default: ''
+  },
+  needHome: {
+    type: Boolean,
+    required: true,
+    default: ''
+  },
+  tags: {
+    type: [String],
+    required: false,
+    default: ''
   }
 })
 
