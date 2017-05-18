@@ -3,7 +3,7 @@
 angular.module('puppyCtrl', [])
     .controller('puppyController', function ($scope, Puppy) {
         $scope.formData = {}
-        $scope.tagline = 'Uma coisa mais fofa que a outra!'
+        $scope.tagline = 'Filhotes lindos!'
 
         Puppy.get()
             .then(function (data) {

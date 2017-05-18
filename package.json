@@ -1,0 +1,26 @@
+{
+  "name": "adoteme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreStoicov/adoteme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreStoicov/adoteme/issues"
+  },
+  "homepage": "https://github.com/AndreStoicov/adoteme#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.3",
+    "method-override": "^2.3.8",
+    "mongoose": "^4.9.9"
+  }
+}
